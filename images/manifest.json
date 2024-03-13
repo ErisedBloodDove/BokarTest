@@ -1,0 +1,66 @@
+{
+  "id" : "https://ErisedBloodDove.github.io/BokarTest/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in ErisedBloodDove/BokarTest project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 2048,
+    "id" : "https://ErisedBloodDove.github.io/BokarTest/images/Generation/canvas/",
+    "label" : {
+      "none" : [ "Generation" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://ErisedBloodDove.github.io/BokarTest/images/Generation/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://ErisedBloodDove.github.io/BokarTest/images/Generation/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 64,
+              "height" : 64
+            }, {
+              "width" : 128,
+              "height" : 128
+            }, {
+              "width" : 256,
+              "height" : 256
+            }, {
+              "width" : 512,
+              "height" : 512
+            }, {
+              "width" : 1024,
+              "height" : 1024
+            }, {
+              "width" : 2048,
+              "height" : 2048
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2048,
+            "@id" : "https://ErisedBloodDove.github.io/BokarTest/images/Generation",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2048
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2048,
+          "id" : "https://ErisedBloodDove.github.io/BokarTest/images/Generation/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2048
+        },
+        "target" : "https://ErisedBloodDove.github.io/BokarTest/images/Generation/canvas/"
+      } ]
+    } ],
+    "height" : 2048
+  } ]
+}
